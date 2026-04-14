@@ -1,10 +1,10 @@
 # Rex Quintenta
 
-**AI Automation Engineer · Full-Stack Developer**
+**AI Automation Engineer · Full-Stack & Mobile Developer**
 
-I build production automation systems and AI-powered web apps that replace manual work with intelligent pipelines. Currently at **Design Shopp** — building client automation with n8n, Claude, and modern web stacks.
+I build production automation systems and AI-powered applications — web, mobile, or pure automation, depending on what the client actually needs. Currently at **Design Shopp** — building client automation with n8n, Claude, and modern web and mobile stacks.
 
-Open to: AI automation engineering · workflow architecture · full-stack dev · automation consulting
+Open to: AI automation engineering · workflow architecture · full-stack & mobile development · automation consulting
 
 ---
 
@@ -13,9 +13,10 @@ Open to: AI automation engineering · workflow architecture · full-stack dev ·
 | | |
 |---|---|
 | **AI Automation Pipelines** | n8n workflows integrating LLMs, webhooks, CRMs, and external APIs — production-grade, security-hardened |
-| **RAG / Knowledge Systems** | Hybrid BM25 + vector search, Cohere reranking, multi-tenant enterprise chat apps |
-| **Full-Stack Web Apps** | Next.js · Supabase · Vercel — real-time sync, RBAC, audit trails, AI generation |
-| **Workflow Architecture** | Sub-workflow chains, HMAC authentication, human-in-the-loop gates, idempotent pipelines |
+| **Web Applications** | Next.js · React · TypeScript — real-time sync, RBAC, AI generation, audit trails |
+| **Mobile Applications** | React Native — cross-platform iOS & Android, same codebase |
+| **RAG / Knowledge Systems** | Hybrid search, reranking, multi-tenant enterprise chat apps |
+| **Workflow Architecture** | Sub-workflow chains, HMAC auth, human-in-the-loop gates, idempotent pipelines |
 
 ---
 
@@ -53,9 +54,12 @@ Production collaborative proposal editor. AI generates full proposals from a bri
 
 **Automation:** n8n Cloud · Webhooks · HMAC-SHA256 · Sub-workflow chains · Error routing
 **AI / LLM:** Claude (Anthropic) · GPT-4.1-mini · Cohere Rerank 3 · OpenAI Embeddings · RAG pipelines
-**Frontend:** Next.js 16 · React 19 · TypeScript (strict) · Tailwind v4 · shadcn/ui
-**Backend:** Supabase · PostgreSQL · pgvector · Vercel · Inngest
+**Web:** Next.js 16 · React 19 · TypeScript · Tailwind v4 · shadcn/ui
+**Mobile:** React Native · Expo · cross-platform iOS & Android
+**Backend:** Supabase · PostgreSQL · pgvector · Vercel · Inngest · Python
 **Integrations:** HubSpot · Slack · Gmail · ClickUp · Google Sheets · WordPress REST API
+
+> I use **Claude Code** to build across any of these stacks — the right tool for the client's problem, not the one I happen to be most comfortable with.
 
 ---
 
