@@ -2,9 +2,9 @@
 
 **AI Automation Engineer · Full-Stack & Mobile Developer**
 
-I build production automation systems and AI-powered applications — web, mobile, or pure automation, depending on what the client actually needs. Currently at **Design Shopp** — building client automation with n8n, Claude, and modern web and mobile stacks.
+I build automation systems and AI-powered applications — n8n pipelines, custom Python/JavaScript scripts, REST APIs, CLI tools, web apps, or mobile apps. Whatever the problem actually needs. Currently at **Design Shopp** — building client automation and internal tools with n8n, Claude, and modern web and mobile stacks.
 
-Open to: AI automation engineering · workflow architecture · full-stack & mobile development · automation consulting
+Open to: AI automation · custom scripting & integration · workflow architecture · full-stack & mobile development · automation consulting
 
 ---
 
@@ -12,11 +12,12 @@ Open to: AI automation engineering · workflow architecture · full-stack & mobi
 
 | | |
 |---|---|
-| **AI Automation Pipelines** | n8n workflows integrating LLMs, webhooks, CRMs, and external APIs — production-grade, security-hardened |
+| **n8n Automation Pipelines** | Production workflows integrating LLMs, webhooks, CRMs, and external APIs — security-hardened, error-routed, audit-logged |
+| **Custom Automation Scripts** | Python and JavaScript scripts for data processing, API integration, file automation, scheduled jobs, and anything n8n can't do natively |
+| **AI-Powered Applications** | Web and mobile apps with LLM integration — RAG systems, AI generation, intelligent routing, streaming responses |
+| **REST APIs & CLI Tools** | FastAPI / Next.js API routes / Node.js — standalone automation services deployable to Vercel, Railway, or bare server |
 | **Web Applications** | Next.js · React · TypeScript — real-time sync, RBAC, AI generation, audit trails |
-| **Mobile Applications** | React Native — cross-platform iOS & Android, same codebase |
-| **RAG / Knowledge Systems** | Hybrid search, reranking, multi-tenant enterprise chat apps |
-| **Workflow Architecture** | Sub-workflow chains, HMAC auth, human-in-the-loop gates, idempotent pipelines |
+| **Mobile Applications** | React Native · Expo — cross-platform iOS & Android |
 
 ---
 
@@ -52,14 +53,14 @@ Production collaborative proposal editor. AI generates full proposals from a bri
 
 ## Stack
 
-**Automation:** n8n Cloud · Webhooks · HMAC-SHA256 · Sub-workflow chains · Error routing
-**AI / LLM:** Claude (Anthropic) · GPT-4.1-mini · Cohere Rerank 3 · OpenAI Embeddings · RAG pipelines
+**Automation:** n8n Cloud · Python scripts · JavaScript/Node.js scripts · Webhooks · HMAC-SHA256 · Cron jobs · Sub-workflow chains
+**AI / LLM:** Claude (Anthropic) · GPT-4.1-mini · Cohere Rerank 3 · OpenAI Embeddings · RAG pipelines · Prompt engineering
 **Web:** Next.js 16 · React 19 · TypeScript · Tailwind v4 · shadcn/ui
 **Mobile:** React Native · Expo · cross-platform iOS & Android
-**Backend:** Supabase · PostgreSQL · pgvector · Vercel · Inngest · Python
-**Integrations:** HubSpot · Slack · Gmail · ClickUp · Google Sheets · WordPress REST API
+**Backend:** Python · Node.js · Supabase · PostgreSQL · pgvector · Vercel · Inngest
+**Integrations:** HubSpot · Slack · Gmail · ClickUp · Google Sheets · WordPress · Airtable · and most APIs with a docs page
 
-> I use **Claude Code** to build across any of these stacks — the right tool for the client's problem, not the one I happen to be most comfortable with.
+> I work with **Claude Code** — I can pick up any stack, integrate any API, and ship fast. The constraint isn't language familiarity, it's the problem itself.
 
 ---
 
@@ -67,8 +68,8 @@ Production collaborative proposal editor. AI generates full proposals from a bri
 
 | Project | What it does |
 |---|---|
-| `document-intelligence` | n8n pipeline — extract structured data from unstructured docs (invoices, contracts, forms) |
-| `employee-onboarding` | End-to-end onboarding automation: form → accounts → training → audit log |
+| `document-intelligence` | n8n + custom extraction scripts — pull structured data from invoices, contracts, and forms |
+| `employee-onboarding` | End-to-end onboarding automation: form → account provisioning → training → audit log |
 | `lead-enrichment-api` | REST API that enriches leads via Claude + web scraping, deployed on Vercel |
 | `multi-agent-business-os` | Python CLI — local multi-agent system for business operations |
 
