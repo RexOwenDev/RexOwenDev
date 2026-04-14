@@ -82,4 +82,4 @@ Production collaborative proposal editor. AI generates full proposals from a bri
 
 ---
 
-**Contact:** owenquintenta@gmail.com &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/rexquintenta)
+**Contact:** owenquintenta@gmail.com &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/owendev) &nbsp;·&nbsp; [Upwork](https://www.upwork.com/freelancers/~016d94e91b51fc9dec)
