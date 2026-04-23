@@ -4,7 +4,7 @@
 
 **I build automation that actually ships.** Production AI pipelines, full-stack web apps, mobile — wherever the problem lives, that's the stack I reach for.
 
-Currently at **Design Shopp** building client automation and internal tools. Based in the Philippines, working globally.
+ased in the Philippines, working globally.
 
 📧 [owenquintenta@gmail.com](mailto:owenquintenta@gmail.com) &nbsp;·&nbsp; 💼 [LinkedIn](https://linkedin.com/in/owendev) &nbsp;·&nbsp; 🧑‍💻 [Upwork](https://www.upwork.com/freelancers/~016d94e91b51fc9dec)
 
