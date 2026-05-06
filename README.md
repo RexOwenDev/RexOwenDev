@@ -1,81 +1,72 @@
-# 👋 Hi, I'm Rex
+# Rex Quintenta
 
-![Rex — AI Automation Engineer](./assets/hero.jpg)
+AI Automation Engineer - LLM Integration - Full-Stack Web and Mobile
 
-**I build automation that actually ships.** Production AI pipelines, full-stack web apps, mobile — wherever the problem lives, that's the stack I reach for.
-
-Based in the Philippines, working globally.
-
-📧 [owenquintenta@gmail.com](mailto:owenquintenta@gmail.com) &nbsp;·&nbsp; 💼 [LinkedIn](https://linkedin.com/in/owendev) &nbsp;·&nbsp; 🧑‍💻 [Upwork](https://www.upwork.com/freelancers/~016d94e91b51fc9dec)
+Philippines, remote-first - [owenquintenta@gmail.com](mailto:owenquintenta@gmail.com) - [LinkedIn](https://linkedin.com/in/owendev) - [Upwork](https://www.upwork.com/freelancers/~016d94e91b51fc9dec)
 
 ---
 
-## What I've built
+My work runs in production. n8n workflow automation, Claude API and GPT-4 integrations, agentic AI pipelines, full-stack web apps in Next.js and TypeScript, mobile apps in React Native. I scope the problem, pick the right tool, and ship something that works without me babysitting it.
 
-### AI Content Pipeline
-
-![AI Content Pipeline](./assets/project-content.jpg)
-
-Six interconnected n8n workflows — keyword → AI draft → quality eval → WordPress publish. Editors only touch the approval step.
-
-**$20/month replaces 80 hours/week of editorial work.** 6,800+ runs/month.
-→ [github.com/RexOwenDev/ai-content-pipeline](https://github.com/RexOwenDev/ai-content-pipeline)
+Currently building with Claude Code as my primary development environment. The constraint is always the problem, not the language or framework.
 
 ---
 
-### Recruitment Pipeline
+## What I've shipped
 
-![Recruitment Pipeline](./assets/project-recruit.jpg)
+### [autoflow-studio](https://github.com/RexOwenDev/autoflow-studio) - Multi-tenant SaaS Reference Architecture
 
-Candidate submits a form → Claude scores across 3 dimensions → CRM updated → team alerted → personalized email sent → audit log written. Offers need a human thumbs-up; AI never auto-sends.
+A reference implementation of a production-grade multi-tenant SaaS built across 8 gated phases. Stack: Next.js 16, Supabase with row-level security, Stripe usage metering, WorkOS SSO and SCIM, HMAC webhook verification, SOC2-aligned audit logging with tamper-evident export.
 
-**Under 10 seconds per candidate.**
-→ [github.com/RexOwenDev/recruitment-pipeline](https://github.com/RexOwenDev/recruitment-pipeline)
-
----
-
-### KnowledgeBase AI
-
-![KnowledgeBase AI](./assets/project-rag.jpg)
-
-Enterprise RAG with hybrid BM25 + vector search, cross-encoder reranking, inline citations, async faithfulness evaluation, and multi-tenant workspace isolation.
-
-**~75 hours/week recovered at 100 employees.**
-→ [github.com/RexOwenDev/rag-chat-app](https://github.com/RexOwenDev/rag-chat-app)
+Includes 120 Vitest unit and integration tests plus 45 pgTAP database assertions. Built this to answer the question: what does "production-ready" actually look like end to end?
 
 ---
 
-## More on the workbench
+### [ai-content-pipeline](https://github.com/RexOwenDev/ai-content-pipeline) - Generative AI Editorial Automation
 
-| Repo | What it does |
+Six connected n8n workflows running live for a media client. The flow: RSS ingestion, deduplication, GPT-4.1-mini quality gate with structured JSON output, AI-assisted content drafting, WordPress REST API publishing, Slack notification, Google Sheets audit log.
+
+Every quality threshold and topic filter lives in a Google Sheet. The editorial team tunes parameters without touching a single workflow node.
+
+**Outcome: $20/month in AI API costs replaced 80 hours/week of manual editorial work. 6,800+ executions/month.**
+
+---
+
+### [recruitment-pipeline](https://github.com/RexOwenDev/recruitment-pipeline) - AI-Powered Candidate Screening Automation
+
+Seven n8n workflows connected across seven platforms through a single trigger. A candidate fills out a Typeform, and Claude API scores them across three structured dimensions - role fit, experience relevance, and response quality - each with a numeric score and explicit reasoning chain. That output writes to HubSpot, alerts the team in Slack, queues a personalized Gmail, creates a ClickUp task, and logs everything to Google Sheets.
+
+Human approval gate is required before any offer-stage email fires. The AI scores but never sends autonomously.
+
+**Outcome: full candidate processing in under 10 seconds, zero manual data entry across seven platforms.**
+
+---
+
+## More projects
+
+| Project | Description |
 |---|---|
-| [**autoflow-studio**](https://github.com/RexOwenDev/autoflow-studio) | Reference multi-tenant SaaS — 8 gated phases, 120 Vitest + 45 pgTAP assertions, SOC2-aligned audit |
-| [**saas-billing-starter**](https://github.com/RexOwenDev/saas-billing-starter) | Production-ready Stripe billing — plan tiers, usage metering, customer portal, webhooks |
-| [**seobot**](https://github.com/RexOwenDev/seobot) | AI SEO content pipeline — keyword → SEO article → publish to WordPress/Shopify |
-| [**employee-onboarding-pipeline**](https://github.com/RexOwenDev/employee-onboarding-pipeline) | 10-workflow n8n automation — BambooHR to GSuite/Slack/Notion, zero IT tickets per hire |
-| [**proposal-studio**](https://github.com/RexOwenDev/proposal-studio) | AI-powered collaborative proposal editor — real-time sync, client accept, full audit trail |
-| [**content-factory**](https://github.com/RexOwenDev/content-factory) | Multi-market AI content in 12 languages — Claude + DeepL transcreation with LLM-as-judge QA |
+| [rag-chat-app](https://github.com/RexOwenDev/rag-chat-app) | Enterprise RAG app - hybrid BM25 plus pgvector retrieval, Cohere Rerank 3, inline source citations, async faithfulness evaluation, multi-tenant with Supabase RLS |
+| [employee-onboarding-pipeline](https://github.com/RexOwenDev/employee-onboarding-pipeline) | 10-workflow n8n automation - BambooHR new hire event triggers Claude role classification, then provisions Google Workspace, Slack, Notion, ClickUp in sequence. Zero IT tickets per hire |
+| [content-factory](https://github.com/RexOwenDev/content-factory) | AI content pipeline in 12 languages - Claude API for drafting, DeepL for transcreation, LLM-as-judge quality evaluation before publish |
+| [proposal-studio](https://github.com/RexOwenDev/proposal-studio) | Collaborative AI proposal editor - real-time Tiptap editing, Claude-assisted generation, client acceptance flow, full audit trail in Supabase |
+| [saas-billing-starter](https://github.com/RexOwenDev/saas-billing-starter) | Stripe billing starter with plan tiers, usage-based metering, customer portal, and webhook event handling |
+| [seobot](https://github.com/RexOwenDev/seobot) | SEO content automation - keyword input to AI-generated article to WordPress or Shopify publish, fully automated |
 
 ---
 
 ## Stack
 
-- **Automation** — n8n Cloud · Python · Node.js · webhooks · HMAC-SHA256 · cron
-- **AI** — Claude (Anthropic) · GPT-4.1-mini · Cohere Rerank 3 · OpenAI Embeddings · RAG
-- **Web** — Next.js 16 · React 19 · TypeScript · Tailwind v4 · shadcn/ui
-- **Mobile** — React Native · Expo — cross-platform iOS & Android
-- **Backend** — Supabase · PostgreSQL · pgvector · Inngest · Vercel
+**Workflow automation:** n8n, Python scripting, JavaScript and TypeScript, webhook design, HMAC-SHA256 verification, cron scheduling, REST API integration, OAuth 2.0
 
-> I work with **Claude Code** — the constraint isn't language familiarity, it's the problem itself.
+**AI and LLM:** Claude API (Anthropic), GPT-4.1 and GPT-4.1-mini, generative AI workflow integration, RAG pipelines, pgvector, BM25 retrieval, Cohere Rerank 3, structured JSON output, agentic workflow patterns, LLM-as-judge quality evaluation, prompt engineering
 
----
+**Web:** Next.js 16, React 19, TypeScript, Tailwind CSS v4, Supabase, PostgreSQL, Stripe, Vercel, Railway
 
-## Right now
+**Mobile:** React Native, Expo, cross-platform iOS and Android
 
-![Currently building](./assets/now.jpg)
-
-Building out `autoflow-studio` as a reference multi-tenant SaaS and shipping a lead-enrichment API. **Open to:** freelance AI automation · full-stack contracts · enterprise roles.
+**Integrations I've connected in production:** HubSpot, Slack, Gmail API, Google Workspace, BambooHR, ClickUp, Notion, Airtable, Typeform, WordPress REST API, Shopify Admin API, Stripe, Twilio
 
 ---
 
-**Let's talk** → 📧 [owenquintenta@gmail.com](mailto:owenquintenta@gmail.com) &nbsp;·&nbsp; 💼 [LinkedIn](https://linkedin.com/in/owendev) &nbsp;·&nbsp; 🧑‍💻 [Upwork](https://www.upwork.com/freelancers/~016d94e91b51fc9dec)
+Open to remote AI automation contracts, LLM integration projects, full-stack engagements, and enterprise roles in Metro Manila.
